@@ -127,6 +127,10 @@ public class AddressbookUI extends UI {
     void refreshContacts() {
         refreshContacts(filter.getValue());
     }
+    
+    void refreshContactsTest() {
+        refreshContacts(filter.getValue());
+    }
 
     private void refreshContacts(String stringFilter) {
         contactList.setContainerDataSource(new BeanItemContainer<>(
